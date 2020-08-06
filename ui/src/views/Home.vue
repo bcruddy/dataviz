@@ -5,8 +5,8 @@
 </template>
 
 <script>
-// @ is an alias to /src
 import DataViz from '@/components/DataViz.vue'
+import http from '@/utils/http';
 
 export default {
   name: 'Home',
